@@ -102,4 +102,4 @@ async def message_command(inter:discord.Interaction,member:discord.User):
     await inter.response.defer()
     await inter.followup.send(f"この人のお名前は {member.name} この人のユーザーIDは {member.id}")
 
-client.run("OTQ4NTY2MjE1OTczMDQ0MjU0.G8AOYF.JxW4Q31DnZdsuyOCPtmffUbLH_aCbqtLh1MHfQ")
+client.run("")
