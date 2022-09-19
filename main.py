@@ -2,7 +2,7 @@ import discord
 from discord import app_commands,Enum
 from typing import Optional
 
-MY_GUILD = discord.Object(id=943859907877306478)
+MY_GUILD = discord.Object(id=)
 
 class MyClient(discord.Client):
     def __init__(self,*,intents:discord.Intents):
